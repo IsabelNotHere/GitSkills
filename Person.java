@@ -32,4 +32,10 @@ public class Person {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
+
+	public String toString() {
+		return "name: " + name + "\n" + 
+			"age: " + age + "\n" +
+			"gender: " + gender + "\n";
+	}
 }
